@@ -1,0 +1,124 @@
+@media(max-width:1000px){
+
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        padding:25px;
+    }
+
+    a{
+        color: #fff;
+    }
+
+    .header-links i{
+        display: block;
+    }
+
+    .header-links ul{
+        flex-direction: column;
+        background-color: black;
+        color: #fff;
+        padding: 30px;
+        gap: 80px;
+        position: absolute;
+        top: 100px;
+        right: -400px;
+        height: 100%;
+        display: block;
+        transition: 0.5s ease;
+        opacity: .94;
+    }
+
+    .header-links ul li {
+        margin-bottom: 20px;
+    }
+    .header-links ul li:first-child{
+        margin-top: 20px;
+    }
+
+    .main-sec .sec-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        gap: 5px;
+    }
+
+    .main-sec .sec-container .section-Text p{
+        font-size: 15px;
+    }
+    
+    .main-sec .sec-container .section-Text  h5{
+        font-size: 20px;
+        color: #ccc;
+    }
+    
+    .main-sec .sec-container .section-Text  h1{
+        font-size: 25px;
+    }
+
+    #about{
+        justify-content: center;
+    }
+
+    .container img{
+        width: 250px;
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .info .exp, .edu{
+        width: 290px;
+    }
+
+    .detail{
+        width: 300px;
+    }
+
+
+    .exp-container .front, .back{
+        width: 300px;
+    }
+
+    .exp-container .front h2, .back h2 {
+        text-align: center;
+        width: 300px;
+    }
+
+    .exp-container{
+
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #projects{
+        margin-top: 100px;
+    }
+
+    .email{
+        text-align: center;
+    }
+
+    .det{
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+        align-items: center;
+        width: 290px;
+        
+    }
+
+
+
+    
+    
+
+}

@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "poppins";
+    scroll-behavior: smooth;
+    background-color: #000000e5;
+    color: #fff;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+:root{
+    --mainColor:red ;
+}
+
+header{
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    z-index: 10;
+}
+
+header .logo{
+    font-size: 25px;
+    cursor: default;
+}
+
+ header span, .main-sec span{
+    color:red;
+    font-size: 55px;
+}
+
+.header-links ul{
+    display: flex;
+    gap: 50px;
+}
+
+.header-links i{
+    font-size: 40px;
+    display: none;
+
+}
+.header_links ul li{
+    transition: all .3s ease;
+}
+
+.header-links button{
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.header-links ul li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+.header-links .open{
+    transition: 0.3s ease;
+    right: 0;
+}
+
+.main-sec{
+    padding: 0 10rem;
+    min-height: fit-content;
+    height: 96vh;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sec .section-Text{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sec .sec-container{
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    gap:90px;
+}
+
+.main-sec .sec-container .section-Text p{
+    font-size: 25px;
+}
+
+.main-sec .sec-container .section-Text  h5{
+    font-size: 40px;
+    color: #ccc;
+}
+
+.main-sec .sec-container .section-Text  h1{
+    font-size: 45px;
+}
+
+.main-sec .sec-container .section-Text button{
+    padding: 10px;
+    width:150px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt{
+    text-align: center;
+    font-size: 25px;
+}
+
+.txt p{
+    color: #ccc;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.container{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.info .exp, .edu{
+    border: 1px solid ;
+    padding: 20px;
+    border-radius: 9px;
+    width: 500px;
+}
+
+.info .exp p, .edu p{
+    color: #a8a5a5;
+    font-size: 16px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+#exp{
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#exp .txt{
+    text-align: center;
+}
+#exp .txt p{
+    font-size: 20px;
+    color: #ccc;
+}
+
+.exp-container {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.exp-container .front, .back{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border:1px solid;
+    padding: 5px 60px 60px;
+    border-radius: 15px;
+}
+
+.skills{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+.skills .language{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.skills .inter p{
+    color: #3f3d3d;
+}
+
+#projects{ 
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.pro-container{
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.project{
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+
+.project:hover{
+    transform: scale(1.02);
+}
+
+.project img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.project .info{
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.project .info h5{
+    font-size: 20px;
+}
+.project .info span {
+    color: #ddd;
+}
+
+.up{
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 2px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    height: 96vh;
+}
+
+.email{
+    padding-top: 170px;
+    font-size: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+
+.email .det{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    border: 3px solid ;
+    padding: 15px 90px;
+    border-radius: 15px;
+}
+
+.social{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
+
+footer{
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}

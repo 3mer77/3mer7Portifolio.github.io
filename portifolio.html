@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="potifolio.css">
+    <link rel="stylesheet" href="media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Personla|Website</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><span>A</span>mer Alali</div>
+        <div class="header-links">
+        <button onclick="oppen()" class="menu"><i class='bx bx-menu'></i></button>
+            <ul id="ul-links">
+                <li onclick="oppen()"><a href="#about">About</a></li>
+                <li onclick="oppen()"><a href="#exp">Experiance</a></li>
+                <li onclick="oppen()"><a href="#projects">Projects</a></li>
+                <li onclick="oppen()"><a href="#contact">Contact Me</a> </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main-sec">
+        <div class="sec-container">
+            <div class="myImg">
+                <img src="../images/11zon_cropped (1).png" alt="No Photo">
+            </div>
+    
+            <div class="section-Text">
+                <p>Hello, I'm <br><h1><span>A</span>mer Alali </h1><br> <h5>Front-end Developer</h5>
+                <br> <p style="color: #ccc; font-size: 14px;"><i class='bx bx-location-plus' ></i>  Live's In Addis Ababa, Ethiopia</p> </p>
+                <button onclick="window.open('./assets/MYCV.pdf')">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+
+        <div class="txt">
+            <p>Know more About me</p>
+            <h2>About Me</h2> 
+        </div>
+
+        <div class="container">
+            <div class="image"> <img src="../images/about.jpeg" alt=""></div>
+
+            <div class="skill">
+
+                <div class="info">
+                    <div class="exp">
+                        <h3>2+ Experiance</h3>
+                        <p>Front-end Developer</p>
+                    </div>
+    
+                    <div class="edu">
+                        <h3>Certificate</h3>
+                        <p>St'Mary Unversity</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Eum quasi, numquam obcaecati 
+                    itaque nam ipsa quae unde voluptate quos! Ad sint
+                    officiis ipsam quia amet 
+                    illum ex, provident porro quam?
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="exp">
+        <div class="txt">
+            <p>Explore My Experiance</p>
+            <h2>Experiances</h2> 
+        </div>
+
+        <div class="exp-container">
+
+            <div class="front">
+                <h2>Front-end Developer</h2>
+                <div class="skills">
+                        <div class="item">
+                            <div class="language">
+                                <i class='bx bxl-html5'></i> 
+                                <p>Html</p>
+                            </div>
+                            <div class="inter"><p>intermidiate</p></div>
+                        </div class="item">
+
+                        <div class="item">
+                            <div class="language">
+                                <i class='bx bxl-tailwind-css' ></i>
+                                <p>Tialwind - CSS </p>
+                            </div>
+                            <div class="inter"><p>intermidiate</p></div>
+                        </div class="item">
+
+                        <div class="item">
+                            <div class="language">
+                                <i class='bx bxl-javascript' ></i> 
+                                <p>javascript</p>
+                            </div>
+                            <div class="inter"><p>intermidiate</p></div>
+                        </div class="item">
+
+                        <div class="item">
+                            <div class="language">
+                                <i class='bx bxl-css3' ></i>
+                                <p>CSS</p>
+                            </div>
+                            <div class="inter"><p>intermidiate</p></div>
+                        </div class="item">
+                </div>
+            </div>
+
+            <div class="back">
+                <h2>Back-end Developer</h2>
+
+                <div class="skills">
+                    <div class="item">
+                        <div class="language">
+                            <i class='bx bxl-html5'></i> 
+                            <p>Html</p>
+                        </div>
+                        <div class="inter"><p>intermidiate</p></div>
+                    </div class="item">
+
+                    <div class="item">
+                        <div class="language">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <p>Tialwind - CSS </p>
+                        </div>
+                        <div class="inter"><p>intermidiate</p></div>
+                    </div class="item">
+
+                    <div class="item">
+                        <div class="language">
+                            <i class='bx bxl-javascript' ></i> 
+                            <p>javascript</p>
+                        </div>
+                        <div class="inter"><p>intermidiate</p></div>
+                    </div class="item">
+
+                    <div class="item">
+                        <div class="language">
+                            <i class='bx bxl-css3' ></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="inter"><p>intermidiate</p></div>
+                    </div class="item">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="txt">
+            <p>Explore My Projects</p>
+            <h2>Projects</h2> 
+        </div>
+        <div class="pro-container">
+            <div class="project" onclick="window.open('https://3mer77.github.io/weather.html?')">
+                <div class="pro-img"><img src="../images/Weatherapp.jpeg" alt=""></div>
+                <div class="info">
+                    <h5>Weather Application</h5>
+                    <span> Weather Application Using API </span>
+                </div>
+            </div>
+
+            <div class="project" onclick="window.open('https://3mer77.github.io/weather.html?')">
+                <div class="pro-img"><img src="../images/Weatherapp.jpeg" alt=""></div>
+                <div class="info">
+                    <h5>Weather Application</h5>
+                    <span> Weather Application Using API </span>
+                </div>
+            </div>
+
+            <div class="project" onclick="window.open('https://3mer77.github.io/weather.html?')">
+                <div class="pro-img"><img src="../images/Weatherapp.jpeg" alt=""></div>
+                <div class="info">
+                    <h5>Weather Application</h5>
+                    <span> Weather Application Using API </span>
+                </div>
+            </div>
+
+            <div class="project" onclick="window.open('https://3mer77.github.io/weather.html?')">
+                <div class="pro-img"><img src="../images/Weatherapp.jpeg" alt=""></div>
+                <div class="info">
+                    <h5>Weather Application</h5>
+                    <span> Weather Application Using API </span>
+                </div>
+            </div>
+
+            <div class="project" onclick="window.open('https://3mer77.github.io/weather.html?')">
+                <div class="pro-img"><img src="../images/Weatherapp.jpeg" alt=""></div>
+                <div class="info">
+                    <h5>Weather Application</h5>
+                    <span> Weather Application Using API </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="txt">
+            <p>Get In Touch</p>
+            <h2>Contact me</h2> 
+        </div>
+
+        <div class="email">
+            <div class="det">
+                <div class="em"><i class='bx bx-envelope'></i> Amer@gmail.com</div>
+                <div class="tel"><i class='bx bxl-telegram' ></i></i> Telegram </div>
+            </div>
+
+        </div>
+
+        <div class="social">
+            <div><i class='bx bxl-instagram' ></i></div>
+            <div><i class='bx bxl-linkedin' ></i></i></div>
+            <div><i class='bx bxl-github' ></i></i></div>
+            <div><i class='bx bxl-youtube' ></i></i></div>
+        </div>
+
+    </section>
+
+<footer>
+    <p>Copy Right &copy;2024</p>
+</footer>
+    <button class="up"><i class='bx bx-up-arrow-alt'></i></button>
+    <script src="portifolio.js"></script>
+</body>
+</html>
